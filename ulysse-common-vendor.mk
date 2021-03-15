@@ -18,6 +18,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/xiaomi/ulysse-common
 
 PRODUCT_PACKAGES += \
+    libantradio \
     libaudio_log_utils \
     libgpustats \
     libsdm-disp-vndapis \
