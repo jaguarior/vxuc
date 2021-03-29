@@ -30,8 +30,7 @@ PRODUCT_PACKAGES += \
     TimeService \
     PowerOffAlarm \
     dpmserviceapp \
-    WfdCommon \
-    chargeonlymode
+    WfdCommon
 
 $(call inherit-product, vendor/xiaomi/ulysse-common/ulysse-common-vendor-acdb.mk)
 $(call inherit-product, vendor/xiaomi/ulysse-common/ulysse-common-vendor-adsp.mk)

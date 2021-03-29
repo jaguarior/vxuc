@@ -271,13 +271,6 @@ cc_prebuilt_library_shared {
 	soc_specific: true,
 }
 
-cc_prebuilt_binary {
-	name: "chargeonlymode",
-	owner: "xiaomi",
-	srcs: ["charger/bin/chargeonlymode"],
-	prefer: true,
-}
-
 cc_prebuilt_library_shared {
 	name: "libqmiservices",
 	owner: "xiaomi",
